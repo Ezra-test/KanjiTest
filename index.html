@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanji Learning</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+  <div class="container">
+    <!-- Dark Mode Toggle -->
+    <div class="header">
+      <h1>Kanji Learning App</h1>
+      <label class="switch">
+        <input type="checkbox" id="dark-mode-toggle" checked>
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <!-- Add New Kanji Section -->
+    <section id="add-kanji-section">
+      <h2>Add New Kanji</h2>
+      <input type="text" id="kanji-input" placeholder="Enter Kanji Character">
+      <input type="text" id="meaning-input" placeholder="Enter Meaning">
+      <button id="add-kanji-btn">Add Kanji</button>
+    </section>
+
+    <!-- Learned Kanji Cards -->
+    <section id="learned-kanji-section">
+      <h2>Learned Kanji</h2>
+      <div id="kanji-cards-container"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
